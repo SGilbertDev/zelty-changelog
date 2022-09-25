@@ -1,8 +1,9 @@
 {
-  "name": "auto-changelog",
+  "name": "@zelty/auto-changelog",
   "version": "2.4.0",
   "description": "Command line tool for generating a changelog from git tags and commit history",
   "main": "./src/index.js",
+  "private": false,
   "bin": {
     "auto-changelog": "./src/index.js"
   },

@@ -31,7 +31,7 @@ const parseReleases = async (tags, options, onParsed) => {
 }
 
 const filterCommits = merges => commit => {
-  if (commit.fixes || commit.merge) {
+  if (commit.merge) {
     // Filter out commits that already appear in fix or merge lists
     return false
   }
